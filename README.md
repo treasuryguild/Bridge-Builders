@@ -1,6 +1,6 @@
 # Bridge Builders
 
-- [Transaction Forms](https://github.com/treasuryguild/Community-Governance-Oversight/issues/new/choose)
+- [Transaction Forms](https://github.com/treasuryguild/Bridge-Builders/issues/new/choose)
 
 Fund 7 funded proposals (Ideascale links)
 
