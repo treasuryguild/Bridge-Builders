@@ -1,9 +1,9 @@
 name: Transaction Form 1
 description: Fill in this form when you make a transaction (Complete form 1 and 2)
-title: "CC Treasury Transaction Issue Form"
+title: "Bridge Builders Transaction Issue Form"
 labels: ["Transactions"]
 assignees:
-  - Andre-Diamond
+  - Miroslav-Rajh
 body:
   - type: markdown
     attributes:
@@ -15,8 +15,11 @@ body:
       label: Pool
       description: Please select the funded proposal that will pay for this
       options:
-        - Community Governance Oversight
-        - Catalyst Audit Circle
+        - Bridge Builders Mentorship Program
+        - Bridge Builders Governance Events Governance day
+        - Bridge Builders Governance Events Café sûr le pont
+        - Catalyst Leadership Academy
+        - SPOs Supporting Community Projects
     validations:
       required: true
   - type: input
@@ -24,7 +27,7 @@ body:
     attributes:
       label: Name
       description: Please enter the name of beneficiary.
-      placeholder: ex. Kenric Nelson
+      placeholder: ex. Felix Weber
     validations:
       required: true
   - type: input
@@ -49,13 +52,22 @@ body:
       label: Budget Item
       description: Please select the budget item.
       options:
-        - Meetings
-        - Comm/Org Tools
-        - Surveys
-        - Retrospectives
-        - Reports
-        - Proposal
-        - Other
+        - Mentorship Program Remuneration
+        - Gov Events Orginization
+        - Gov Events Management and Coordination
+        - Gov Events Host rewards
+        - Gov Events Post tasks
+        - Leadership Academy Leadership School
+        - Leadership Academy Strategic Planning
+        - Leadership Academy Classroom Hosts
+        - Leadership Academy Academy Management
+        - SPOs Marketing Campaign
+        - SPOs Website
+        - SPOs Community Management
+        - SPOs security review process
+        - SPOs Pool Network Coordination
+        - SPOs Communication Hub Management
+        - SPOs Technology and infrastructure
     validations:
       required: true
   - type: textarea
