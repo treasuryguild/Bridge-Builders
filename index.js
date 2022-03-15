@@ -118,6 +118,6 @@ Description: ${description}`
       return answer;
     }
     //Open in a new tab
-  window.open("https://github.com/treasuryguild/Community-Governance-Oversight/new/main/content/en/blog/" + githubQueryLink(pool) + githubQueryLink2(budgetB) + "new?value=" + encodedFileText +"&filename=" + filename);
+  window.open("https://github.com/treasuryguild/Bridge-Builders/new/main/content/en/blog/" + githubQueryLink(pool) + githubQueryLink2(budgetB) + "new?value=" + encodedFileText +"&filename=" + filename);
     
   }
