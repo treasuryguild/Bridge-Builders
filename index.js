@@ -38,12 +38,18 @@ Description: ${description}`
     function githubQueryLink(pool) {
       var answer = "";
       switch(pool) {
-        case 'Community Governance Oversight':
-          answer = "Fund7/Community-Governance-Oversight/";
+        case 'Bridge Builders Mentorship Program':
+          answer = "Fund7/Bridge-Builders-Mentorship-Program/";
           break;
-        case 'Catalyst Audit Circle':
-          answer = "Fund7/Catalyst-Audit-Circle/";
+        case 'Bridge Builders Governance Events':
+          answer = "Fund7/Bridge-Builders-Governance-Events/";
           break;
+        case 'Catalyst Leadership Academy':
+          answer = "Fund7/Catalyst-Leadership-Academy/";
+          break;
+        case 'SPOs Supporting Community Projects':
+          answer = "Fund7/SPOs-Supporting-Community-Projects/";
+          break;              
         default:
           answer = "";
           break;
@@ -54,27 +60,57 @@ Description: ${description}`
     function githubQueryLink2(budgetB) {
       var answer = "";
       switch(budgetB) {
-        case 'Meetings':
-          answer = "Meetings/";
+        case 'Mentorship Program Remuneration':
+          answer = "Mentorship-Program-Remuneration/";
           break;
-        case 'Comm/Org Tools':
-          answer = "Comm-Org-Tools/";
+        case 'Gov Events Orginization':
+          answer = "Gov-Events-Orginization/";
           break;
-        case 'Surveys':
-          answer = "Surveys/";
+        case 'Gov Events Management and Coordination':
+          answer = "Gov-Events-Management-and-Coordination/";
           break;
-        case 'Retrospectives':
-          answer = "Retrospectives/";
+        case 'Gov Events Host rewards':
+          answer = "Gov-Events-Host-rewards/";
           break;
-        case 'Reports':
-          answer = "Reports/";
+        case 'Gov Events Post tasks':
+          answer = "Gov-Events-Post-tasks/";
           break;
-        case 'Proposal':
-          answer = "Proposal/";
+        case 'Leadership Academy Leadership School':
+          answer = "Leadership-Academy-Leadership-School/";
           break;
-        case 'Other':
-          answer = "Other/";
-          break;         
+        case 'Leadership Academy Strategic Planning':
+          answer = "Leadership-Academy-Strategic-Planning/";
+          break;    
+        case 'Leadership Academy Classroom Hosts':
+          answer = "Leadership-Academy-Classroom-Hosts/";
+          break;
+        case 'Leadership Academy Academy Management':
+          answer = "Leadership-Academy-Academy-Management/";
+          break;
+        case 'Leadership Academy Documentation':
+          answer = "Leadership-Academy-Documentation/";
+          break;
+        case 'SPOs Marketing Campaign':
+          answer = "SPOs-Marketing-Campaign/";
+          break;
+        case 'SPOs Website':
+          answer = "SPOs-Website/";
+          break;
+        case 'SPOs Community Management':
+          answer = "SPOs-Community-Management/";
+          break;
+        case 'SPOs security review process':
+          answer = "SPOs-security-review-process/";
+          break;
+        case 'SPOs Pool Network Coordination':
+          answer = "SPOs-Pool-Network-Coordination/";
+          break;
+        case 'SPOs Communication Hub Management':
+          answer = "SPOs-Communication-Hub-Management/";
+          break;
+        case 'SPOs Technology and infrastructure':
+          answer = "SPOs-Technology-and-infrastructure/";
+          break;              
         default:
           answer = "";
           break;
